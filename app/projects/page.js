@@ -29,9 +29,9 @@ export default function Projects() {
                 Personal Portfolio
               </h1>
               <button className="hover:transition-transform hover:rotate-[360deg] scale-150">
-                <Link href="https://github.com/maddieadair/personal-portfolio">
+                <a href="https://github.com/maddieadair/personal-portfolio">
                   <AiFillGithub className="hover:fill-icy" size={20} />
-                </Link>
+                </a>
               </button>
             </div>
             <p className="text-start italic lg:text-lg border-b-2 border-sesame group-hover:border-marshmallow pb-4">
@@ -98,9 +98,9 @@ export default function Projects() {
                 Chinese Worksheet Generator
               </h1>
               <button className="hover:transition-transform hover:rotate-[360deg] scale-150">
-                <Link href="https://github.com/maddieadair/chinese-stroke-ws-gen">
+                <a href="https://github.com/maddieadair/chinese-stroke-ws-gen">
                   <AiFillGithub className="hover:fill-icy" size={20} />
-                </Link>
+                </a>
               </button>
             </div>
             <h2 className="italic text-start text-red-400 group-hover:text-red-200 lg:text-lg">

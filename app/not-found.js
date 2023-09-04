@@ -32,7 +32,7 @@ export default function NotFound() {
           If so, then you&apos;re in luck! You&apos;ve found the right place!)
         </h2>
       </div>
-      <button className="mt-8 bg-sesame text-cozyWhite rounded-md p-3 transition ease-in-out hover:-translate-y-1 duration-300">
+      <button className="mt-8 bg-sesame text-marshmallow rounded-md p-3 transition ease-in-out hover:-translate-y-1 duration-300">
         <Link href="/" className="flex flex-row gap-x-2 md:text-xl">
           return home<AiFillHome size={22}></AiFillHome>
         </Link>

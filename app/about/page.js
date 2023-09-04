@@ -56,23 +56,23 @@ export default function About() {
           </div>
           <div className="space-x-6 ml-1 mb-2">
             <button className="hover:transition-transform hover:rotate-[360deg] scale-150">
-              <a href="https://github.com/maddieadair/">
-                <AiFillGithub className="hover:fill-icy" size={20} />
-              </a>
+              <Link href="https://github.com/maddieadair/">
+                <AiFillGithub className="hover:fill-icy" size={20} prefetch={false}/>
+              </Link>
             </button>
             <button className="hover:transition-transform hover:rotate-[360deg] scale-150">
-              <a href="https://www.linkedin.com/in/madelineadair/">
-                <FaLinkedin className="hover:fill-icy" size={20} />
-              </a>
+              <Link href="https://www.linkedin.com/in/madelineadair/">
+                <FaLinkedin className="hover:fill-icy" size={20} prefetch={false}/>
+              </Link>
             </button>
             <button className="hover:transition-transform hover:rotate-[360deg] scale-150">
-              <a
+              <Link
                 href="/Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FiFileText className="hover:fill-icy" size={20} />
-              </a>
+                <FiFileText className="hover:fill-icy" size={20} prefetch={false}/>
+              </Link>
             </button>
           </div>
           <div className="border-t-2 border-sesame pt-12 space-y-6 lg:text-lg">

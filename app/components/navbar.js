@@ -46,22 +46,22 @@ export default function Navbar() {
       >
         <ul className="text-marshmallow text-3xl font-gambetta space-y-8 text-center">
           <li>
-            <Link href="/" onClick={handleNav}>
+            <Link href="/" onClick={handleNav} prefetch={false}>
               home
             </Link>
           </li>
           <li>
-            <Link href="/about" onClick={handleNav}>
+            <Link href="/about" onClick={handleNav} prefetch={false}>
               about
             </Link>
           </li>
           <li>
-            <Link href="/projects" onClick={handleNav}>
+            <Link href="/projects" onClick={handleNav} prefetch={false}>
               projects
             </Link>
           </li>
           <li>
-            <Link href="/contact" onClick={handleNav}>
+            <Link href="/contact" onClick={handleNav} prefetch={false}>
               contact
             </Link>
           </li>

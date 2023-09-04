@@ -40,7 +40,7 @@ export default function Navbar() {
         </div>
       </button>
       <nav
-        className={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen justify-center items-center pt-24 bg-gray-900 text-marshmallow bg-opacity-100 ease-in-out transform transition-all duration-500 ${
+        className={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen justify-center items-center pt-24 bg-sesame text-marshmallow bg-opacity-100 ease-in-out transform transition-all duration-500 ${
           nav ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-full"
         }`}
       >

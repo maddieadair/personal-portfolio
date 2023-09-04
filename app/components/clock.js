@@ -19,14 +19,14 @@ export default function Clock() {
   });
 
   let myDate = new Date();
-  let myDay = myDate.toLocaleDateString(undefined, {
+  let myDay = myDate.toLocaleDateString(locale, {
     weekday: "long",
     year: "numeric",
     month: "long",
     day: "numeric",
     timeZone: myTimeZone,
   });
-  let myTime = myDate.toLocaleTimeString(undefined, {
+  let myTime = myDate.toLocaleTimeString(locale, {
     hour: "2-digit",
     minute: "2-digit",
     timeZone: myTimeZone,

@@ -1,33 +1,30 @@
-'use client'
 import React from "react";
 
 export default function Clock() {
   const locale = "en-US";
   const myTimeZone = "America/Chicago";
 
-  let yourDate = new Date();
-  let yourDay = yourDate.toLocaleDateString(undefined, {
+  let yourDay = new Date().toLocaleDateString(undefined, {
     weekday: "long",
     year: "numeric",
     month: "long",
     day: "numeric",
   });
-  let yourTime = yourDate.toLocaleTimeString(undefined, {
+  let yourTime = new Date().toLocaleTimeString(undefined, {
     hour: "2-digit",
     minute: "2-digit",
     timeZoneName: "short",
     hour12: true,
   });
 
-  let myDate = new Date();
-  let myDay = myDate.toLocaleDateString(locale, {
+  let myDay = new Date().toLocaleDateString(locale, {
     weekday: "long",
     year: "numeric",
     month: "long",
     day: "numeric",
     timeZone: myTimeZone,
   });
-  let myTime = myDate.toLocaleTimeString(locale, {
+  let myTime = new Date().toLocaleTimeString(locale, {
     hour: "2-digit",
     minute: "2-digit",
     timeZone: myTimeZone,
